@@ -1,18 +1,18 @@
+
 name: CI
+
+2
 
 on: [push]
 
-jobs: 
-
+jobs:
 build:
-
 runs-on: windows-latest
 
 steps:
 
-- name: Quiero que me muestre la hora
-
+- name: Ver la hora
 run: date
 
-
-
+- name: Esperar 3 segundos
+run: sleep 3
