@@ -12,4 +12,4 @@ jobs:
         run: echo %date%
 
       - name: Esperar 3 segundos
-        run: timeout /t 3
+        run: powershell -Command "Start-Sleep -Seconds 3"
